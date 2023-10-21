@@ -57,9 +57,9 @@
             <td><?php echo $lab_status; ?></td>
             <td>
                 <?php echo $assign_text; ?>
-                <button class="btn btn-info btn-sm btn_teacherEdit" on="<?php echo ''; ?>">Edit</button>
+                <a class="btn btn-info btn-sm btn_teacherEdit" href="<?php echo ''; ?>">Edit</a>
                 <?php if (Session::exists('admin')): ?>
-                    <button class="btn btn-danger btn-sm btn_teacherDelete" id="<?php echo ''; ?>">Delete</button>
+                    <a class="btn btn-danger btn-sm btn_teacherDelete" id="<?php echo ''; ?>">Delete</a>
                 <?php endif; ?>
             </td>
         </tr>
